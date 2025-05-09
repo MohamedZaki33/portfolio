@@ -55,7 +55,7 @@ mohamed-zaki-portfolio/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/mohamed-zaki-portfolio.git
+   git clone https://github.com/MohamedZaki33/portfolio.git
    ```
 
 2. Navigate to the project directory:
@@ -82,7 +82,7 @@ mohamed-zaki-portfolio/
 - Colors and themes in `css/style.css`
 - Layout and responsive breakpoints
 - Animation timings and effects
-
+E482-90DF
 ### Functionality
 - Form handling in `js/main.js`
 - Portfolio filters and sorting
@@ -106,4 +106,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 Mohamed Zaki - [Your Email]
-Project Link: [Your Repository URL]
+Project Link: https://github.com/MohamedZaki33/portfolio
