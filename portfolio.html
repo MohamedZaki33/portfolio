@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Mohamed Zaki</title>
+    <meta name="description" content="Explore Mohamed Zaki's portfolio of web development projects, showcasing expertise in frontend and backend development.">
+    <meta name="keywords" content="portfolio projects, web development, Mohamed Zaki work, developer portfolio">
+    <meta name="author" content="Mohamed Zaki">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/portfolio.html">
+    <meta property="og:title" content="Portfolio - Mohamed Zaki's Web Development Projects">
+    <meta property="og:description" content="Explore Mohamed Zaki's portfolio of web development projects, showcasing expertise in frontend and backend development.">
+    <meta property="og:image" content="https://yourdomain.com/images/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourdomain.com/portfolio.html">
+    <meta property="twitter:title" content="Portfolio - Mohamed Zaki's Web Development Projects">
+    <meta property="twitter:description" content="Explore Mohamed Zaki's portfolio of web development projects, showcasing expertise in frontend and backend development.">
+    <meta property="twitter:image" content="https://yourdomain.com/images/og-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#2563eb">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">MZ</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portfolio-hero">
+            <div class="portfolio-content animate-fade-in">
+                <h1>My Portfolio</h1>
+                <p class="subtitle">A showcase of my best work</p>
+            </div>
+        </section>
+
+        <section class="portfolio-filters">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+            </div>
+        </section>
+
+        <section class="portfolio-grid">
+            <!-- Project 1 -->
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-image">
+                    <img src="https://via.placeholder.com/600x400" alt="Project 1">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>Project Name 1</h3>
+                            <p>Web Development</p>
+                            <a href="#" class="view-project">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="portfolio-item" data-category="design">
+                <div class="portfolio-image">
+                    <img src="https://via.placeholder.com/600x400" alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>Project Name 2</h3>
+                            <p>UI/UX Design</p>
+                            <a href="#" class="view-project">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="portfolio-item" data-category="mobile">
+                <div class="portfolio-image">
+                    <img src="https://via.placeholder.com/600x400" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>Project Name 3</h3>
+                            <p>Mobile App</p>
+                            <a href="#" class="view-project">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more portfolio items as needed -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2025 Mohamed Zaki. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

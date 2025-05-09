@@ -1,0 +1,14 @@
+{
+    "name": "Mohamed Zaki Portfolio",
+    "short_name": "MZ Portfolio",
+    "icons": [
+        {
+            "src": "/images/favicon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#2563eb",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
